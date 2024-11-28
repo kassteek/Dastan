@@ -1,0 +1,37 @@
+body {
+    background-image: url("2.png");
+    }
+    header{
+    display: flex;
+    align-items: center;
+    }
+    header>div{
+    display: flex;
+    justify-content: center;
+    }
+    ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-family: Helvetica;
+    }
+    li {
+    margin: 0 10px; 
+    }
+    input {
+    width: 250px;
+    height: 30px;
+    border-radius: 42px;
+    border: 1px solid #ffffff;
+    outline: none;
+    position: relative;
+    transition: 3s linear;
+    background-color: #641180;
+    margin: 0 10px;
+    }
+    
+    
+    ::placeholder {
+    color: white;
+    font-family: Helvetica;
+    }
