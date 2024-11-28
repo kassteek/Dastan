@@ -1,11 +1,11 @@
 body {
-
-    background-image: url("22.jpg");
+    background-image: url("2.png");
     }
     header{
+    display: flex;
     align-items: center;
     }
-    header div{
+    header>div{
     display: flex;
     justify-content: center;
     }
@@ -35,29 +35,3 @@ body {
     color: white;
     font-family: Helvetica;
     }
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
-        
-          font-family: "Audiowide", serif;
-          font-weight: 400;
-          font-style: normal;
-          color: #ffffff;
-          font-size: 50px;
-        
-        
-      }
-      img {
-        max-height: 1000px;
-      }
-      .zxc {
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        flex-direction: row-reverse; 
-      }
-      
-      img { 
-        max-height: 1000px; 
-      }
